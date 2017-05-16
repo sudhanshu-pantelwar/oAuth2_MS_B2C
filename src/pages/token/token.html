@@ -1,0 +1,20 @@
+<!--
+  Generated template for the Token page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Token</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <p>{{response}}</p>
+  <button ion-button (click)="refresh_token()" full color="danger">Refresh Token</button>
+  <button ion-button (click)="logout()" full color="danger">Logout</button>
+</ion-content>
